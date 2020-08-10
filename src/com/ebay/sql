@@ -1,0 +1,6 @@
+1. 员工 id name slary dept
+每个部门工资最高的的人
+
+select dept,max(slary) from user group by dept
+
+select a.id,a.name,a.slary,a.dept from user a ,(select dept,max(slary) from user group by dept) tmp where a.slary = tmp.slary and a.dept=tmp.dept;
