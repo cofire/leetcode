@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4d95c7ac-1f6e-4483-8acd-0611b4a05a78" name="Default Changelist" comment="All letcode sutition">
-      <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
+    <list default="true" id="4d95c7ac-1f6e-4483-8acd-0611b4a05a78" name="Default Changelist" comment="merge sort">
+      <change afterPath="$PROJECT_DIR$/src/cofire/sort/BubbleSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cofire/sort/InsertionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cofire/sort/SelectionSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/cofire/sort/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cofire/sort/MergeSort.java" afterDir="false" />
     </list>
@@ -28,8 +30,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -81,6 +83,9 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cofire.sort" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\liying\github\leetcode\src" />
     </key>
@@ -91,9 +96,9 @@
       <select />
     </treeState>
   </component>
-  <component name="RunManager" selected="Application.MergeSort">
-    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cofire.sort.MergeSort" />
+  <component name="RunManager" selected="Application.SelectionSort">
+    <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cofire.sort.BubbleSort" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
@@ -105,12 +110,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P154FindMinimumInRotatedSortedArrayIi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.editor.cn.P154FindMinimumInRotatedSortedArrayIi" />
+    <configuration name="InsertionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cofire.sort.InsertionSort" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.editor.cn.*" />
+          <option name="PATTERN" value="cofire.sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,25 +123,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P34FindFirstAndLastPositionOfElementInSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.editor.cn.P34FindFirstAndLastPositionOfElementInSortedArray" />
+    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cofire.sort.MergeSort" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.editor.cn.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="P540SingleElementInASortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.editor.cn.P540SingleElementInASortedArray" />
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.editor.cn.*" />
+          <option name="PATTERN" value="cofire.sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -157,13 +149,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SelectionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cofire.sort.SelectionSort" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cofire.sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SelectionSort" />
+        <item itemvalue="Application.InsertionSort" />
+        <item itemvalue="Application.BubbleSort" />
         <item itemvalue="Application.MergeSort" />
         <item itemvalue="Application.QuickSort" />
-        <item itemvalue="Application.P540SingleElementInASortedArray" />
-        <item itemvalue="Application.P154FindMinimumInRotatedSortedArrayIi" />
-        <item itemvalue="Application.P34FindFirstAndLastPositionOfElementInSortedArray" />
       </list>
     </recent_temporary>
   </component>
@@ -212,7 +217,7 @@
       <workItem from="1638097045764" duration="643000" />
       <workItem from="1638097723991" duration="66000" />
       <workItem from="1638097832433" duration="179000" />
-      <workItem from="1638098031675" duration="8544000" />
+      <workItem from="1638098031675" duration="10675000" />
     </task>
     <task id="LOCAL-00001" summary="获取最长会问子串">
       <created>1629635344636</created>
@@ -235,7 +240,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638104280776</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="merge sort">
+      <created>1638107029812</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1638107029812</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -276,7 +288,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="获取最长会问子串" />
     <MESSAGE value="All letcode sutition" />
-    <option name="LAST_COMMIT_MESSAGE" value="All letcode sutition" />
+    <MESSAGE value="merge sort" />
+    <option name="LAST_COMMIT_MESSAGE" value="merge sort" />
   </component>
   <component name="WindowStateProjectService">
     <state x="566" y="116" key="#Custom_Plugin_Repositories" timestamp="1629724076341">
@@ -287,10 +300,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="452" y="100" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1629638907825" />
-    <state x="505" y="55" key="CommitChangelistDialog2" timestamp="1638104278863">
+    <state x="505" y="55" key="CommitChangelistDialog2" timestamp="1638193135446">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="505" y="55" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1638104278863" />
+    <state x="505" y="55" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1638193135446" />
     <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1629637200008">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -299,38 +312,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="804" y="222" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1638097746259" />
-    <state width="1867" height="258" key="GridCell.Tab.0.bottom" timestamp="1638106993255">
+    <state width="1867" height="220" key="GridCell.Tab.0.bottom" timestamp="1638193112454">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="258" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1638106993255" />
-    <state width="1867" height="258" key="GridCell.Tab.0.center" timestamp="1638106993255">
+    <state width="1867" height="220" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1638193112454" />
+    <state width="1867" height="220" key="GridCell.Tab.0.center" timestamp="1638193112454">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="258" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1638106993255" />
-    <state width="1867" height="258" key="GridCell.Tab.0.left" timestamp="1638106993254">
+    <state width="1867" height="220" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1638193112454" />
+    <state width="1867" height="220" key="GridCell.Tab.0.left" timestamp="1638193112454">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="258" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1638106993254" />
-    <state width="1867" height="258" key="GridCell.Tab.0.right" timestamp="1638106993255">
+    <state width="1867" height="220" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1638193112454" />
+    <state width="1867" height="220" key="GridCell.Tab.0.right" timestamp="1638193112454">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="258" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1638106993255" />
-    <state width="1867" height="220" key="GridCell.Tab.1.bottom" timestamp="1638106967221">
+    <state width="1867" height="220" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1638193112454" />
+    <state width="1867" height="220" key="GridCell.Tab.1.bottom" timestamp="1638193112455">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="220" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1638106967221" />
-    <state width="1867" height="220" key="GridCell.Tab.1.center" timestamp="1638106967220">
+    <state width="1867" height="220" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1638193112455" />
+    <state width="1867" height="220" key="GridCell.Tab.1.center" timestamp="1638193112455">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="220" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1638106967220" />
-    <state width="1867" height="220" key="GridCell.Tab.1.left" timestamp="1638106967219">
+    <state width="1867" height="220" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1638193112455" />
+    <state width="1867" height="220" key="GridCell.Tab.1.left" timestamp="1638193112454">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="220" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1638106967219" />
-    <state width="1867" height="220" key="GridCell.Tab.1.right" timestamp="1638106967221">
+    <state width="1867" height="220" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1638193112454" />
+    <state width="1867" height="220" key="GridCell.Tab.1.right" timestamp="1638193112455">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="220" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1638106967221" />
+    <state width="1867" height="220" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1638193112455" />
     <state x="440" y="198" key="IDE.errors.dialog" timestamp="1629639425247">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -343,14 +356,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="642" y="93" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1638098976976" />
-    <state x="452" y="192" key="Vcs.Push.Dialog.v2" timestamp="1638104282659">
+    <state x="452" y="192" key="Vcs.Push.Dialog.v2" timestamp="1638107031488">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="452" y="192" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1638104282659" />
+    <state x="452" y="192" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1638107031488" />
     <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1629637200008">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1629637200008" />
+    <state x="627" y="246" key="extract.method.dialog" timestamp="1638192143787">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="627" y="246" key="extract.method.dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1638192143787" />
     <state x="532" y="-5" width="840" height="1032" key="search.everywhere.popup" timestamp="1638099464531">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -472,9 +489,19 @@
           <line>11</line>
           <option name="timeStamp" value="304" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/cofire/sort/SelectionSort.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="306" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/cofire/sort/SelectionSort.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="307" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/cofire/sort/MergeSort.java</url>
-          <line>44</line>
+          <line>31</line>
           <properties class="cofire.sort.MergeSort" method="main">
             <option name="EMULATED" value="true" />
           </properties>
