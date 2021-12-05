@@ -955,6 +955,14 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/leetcode/editor/cn/P451SortCharactersByFrequency.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/leetcode/editor/cn/P451SortCharactersByFrequency.java" />
+              <option name="questionId" value="451" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/leetcode/editor/cn/P452MinimumNumberOfArrowsToBurstBalloons.java">
           <value>
             <LeetcodeEditor>
