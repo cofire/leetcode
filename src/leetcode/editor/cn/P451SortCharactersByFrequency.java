@@ -46,18 +46,51 @@
 
 
 package leetcode.editor.cn;
+
+import java.util.HashMap;
+
 //Java：根据字符出现频率排序
-public class P451SortCharactersByFrequency{
+public class P451SortCharactersByFrequency {
     public static void main(String[] args) {
         Solution solution = new P451SortCharactersByFrequency().new Solution();
+        System.out.println(solution.frequencySort("tree"));
+        System.out.println(solution.frequencySort("cccaaa"));
+        System.out.println(solution.frequencySort("Aabb"));
         // TO TEST
     }
-    //leetcode submit region begin(Prohibit modification and deletion)
-class Solution {
-    public String frequencySort(String s) {
 
+    //leetcode submit region begin(Prohibit modification and deletion)
+    class Solution {
+        public String frequencySort(String s) {
+            if (s == null || s.length() == 0) {
+                return null;
+            }
+            HashMap<Character, Integer> hm = new HashMap<>();
+            int size = s.length();
+            for (int i = 0; i < size; i++) {
+                hm.put(s.charAt(i), hm.getOrDefault(s.charAt(i), 0) + 1);
+            }
+            int ches = hm.size();
+            int[][] sortedRs = new int[ches][2];
+            int i = 0;
+            for (HashMap.Entry<Character, Integer> entry : hm.entrySet()) {
+                sortedRs[i] = new int[]{entry.getKey(), entry.getValue()};
+                for (int j = i; j > 0 && sortedRs[j][1] > sortedRs[j - 1][1]; j--) {
+                    int[] tmp = sortedRs[j];
+                    sortedRs[j] = sortedRs[j - 1];
+                    sortedRs[j - 1] = tmp;
+                }
+                i++;
+            }
+            StringBuilder rs = new StringBuilder();
+            for (int idx = 0; idx < ches; idx++) {
+                for (int j = 0; j < sortedRs[idx][1]; j++) {
+                    rs.append(Character.toChars(sortedRs[idx][0]));
+                }
+            }
+            return rs.toString();
+        }
     }
-}
 //leetcode submit region end(Prohibit modification and deletion)
 
 }
