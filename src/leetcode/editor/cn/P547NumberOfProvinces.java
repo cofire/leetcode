@@ -45,18 +45,40 @@
 
 
 package leetcode.editor.cn;
+
+import java.util.HashSet;
+
 //Java：省份数量
-public class P547NumberOfProvinces{
+public class P547NumberOfProvinces {
     public static void main(String[] args) {
         Solution solution = new P547NumberOfProvinces().new Solution();
         // TO TEST
     }
-    //leetcode submit region begin(Prohibit modification and deletion)
-class Solution {
-    public int findCircleNum(int[][] isConnected) {
 
+    //leetcode submit region begin(Prohibit modification and deletion)
+    class Solution {
+        public int findCircleNum(int[][] isConnected) {
+            int citys = isConnected.length;
+            int count = 0;
+            HashSet<Integer> visited = new HashSet<>();
+            for (int i = 0; i < citys; i++) {
+                if (!visited.contains(i)) {
+                    dfs(isConnected, i, visited);
+                    count++;
+                }
+            }
+            return count;
+        }
+
+        public void dfs(int[][] isConnected, int i, HashSet<Integer> visited) {
+            visited.add(i);
+            for (int j = 0; j < isConnected.length; j++) {
+                if (isConnected[i][j] == 1 && !visited.contains(j)) {
+                    dfs(isConnected, j, visited);
+                }
+            }
+        }
     }
-}
 //leetcode submit region end(Prohibit modification and deletion)
 
 }

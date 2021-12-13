@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4d95c7ac-1f6e-4483-8acd-0611b4a05a78" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/P695MaxAreaOfIsland.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/P75SortColors.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/editor/cn/P547NumberOfProvinces.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/P547NumberOfProvinces.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/leetcode/editor/cn/all.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/all.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/editor/cn/translation.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/translation.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -219,7 +216,7 @@
       <workItem from="1638097723991" duration="66000" />
       <workItem from="1638097832433" duration="179000" />
       <workItem from="1638098031675" duration="17877000" />
-      <workItem from="1639314160226" duration="1316000" />
+      <workItem from="1639314160226" duration="3131000" />
     </task>
     <task id="LOCAL-00001" summary="获取最长会问子串">
       <created>1629635344636</created>
@@ -270,7 +267,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638796256152</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="695">
+      <created>1639316177464</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1639316177464</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -313,25 +317,14 @@
     <MESSAGE value="All letcode sutition" />
     <MESSAGE value="merge sort" />
     <MESSAGE value="Sort" />
-    <option name="LAST_COMMIT_MESSAGE" value="Sort" />
+    <MESSAGE value="695" />
+    <option name="LAST_COMMIT_MESSAGE" value="695" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="566" y="116" key="#Custom_Plugin_Repositories" timestamp="1629724076341">
+    <state x="505" y="55" key="CommitChangelistDialog2" timestamp="1639316176265">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="566" y="116" key="#Custom_Plugin_Repositories/0.0.1920.1040@0.0.1920.1040" timestamp="1629724076341" />
-    <state x="452" y="100" key="#Notifications" timestamp="1629638907825">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="452" y="100" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1629638907825" />
-    <state x="505" y="55" key="CommitChangelistDialog2" timestamp="1638796255048">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="505" y="55" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1638796255048" />
-    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1629637200008">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1629637200008" />
+    <state x="505" y="55" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1639316176265" />
     <state x="804" y="222" key="FileChooserDialogImpl" timestamp="1638097746259">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -368,26 +361,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1867" height="220" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1638711195854" />
-    <state x="440" y="198" key="IDE.errors.dialog" timestamp="1629639425247">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="440" y="198" key="IDE.errors.dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1629639425247" />
-    <state x="751" y="182" key="RollbackChangesDialog" timestamp="1629636980311">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="751" y="182" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1629636980311" />
     <state x="642" y="93" key="SettingsEditor" timestamp="1638098976976">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="642" y="93" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1638098976976" />
-    <state x="452" y="192" key="Vcs.Push.Dialog.v2" timestamp="1638796258301">
+    <state x="452" y="192" key="Vcs.Push.Dialog.v2" timestamp="1639316179302">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="452" y="192" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1638796258301" />
-    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1629637200008">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1629637200008" />
+    <state x="452" y="192" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1639316179302" />
     <state x="627" y="246" key="extract.method.dialog" timestamp="1638192143787">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
