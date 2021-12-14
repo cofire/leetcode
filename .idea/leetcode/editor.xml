@@ -955,6 +955,14 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/leetcode/editor/cn/P417PacificAtlanticWaterFlow.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/leetcode/editor/cn/P417PacificAtlanticWaterFlow.java" />
+              <option name="questionId" value="417" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/leetcode/editor/cn/P451SortCharactersByFrequency.java">
           <value>
             <LeetcodeEditor>
@@ -968,6 +976,14 @@
             <LeetcodeEditor>
               <option name="path" value="$PROJECT_DIR$/src/leetcode/editor/cn/P452MinimumNumberOfArrowsToBurstBalloons.java" />
               <option name="questionId" value="452" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/leetcode/editor/cn/P46Permutations.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/leetcode/editor/cn/P46Permutations.java" />
+              <option name="questionId" value="46" />
             </LeetcodeEditor>
           </value>
         </entry>
