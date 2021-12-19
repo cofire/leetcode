@@ -2,9 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4d95c7ac-1f6e-4483-8acd-0611b4a05a78" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/P51NQueens.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/P77Combinations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/P79WordSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/editor/cn/P46Permutations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/P46Permutations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/editor/cn/all.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/leetcode/editor/cn/all.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/editor/cn/translation.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/leetcode/editor/cn/translation.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/leetcode/editor/cn/all.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/all.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/editor/cn/translation.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/translation.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,35 +100,9 @@
       <select />
     </treeState>
   </component>
-  <component name="RunManager" selected="Application.P46Permutations">
-    <configuration name="P347TopKFrequentElements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.editor.cn.P347TopKFrequentElements" />
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.editor.cn.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.P51NQueens">
     <configuration name="P417PacificAtlanticWaterFlow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.editor.cn.P417PacificAtlanticWaterFlow" />
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.editor.cn.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="P451SortCharactersByFrequency" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.editor.cn.P451SortCharactersByFrequency" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
@@ -147,8 +127,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P75SortColors" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.editor.cn.P75SortColors" />
+    <configuration name="P51NQueens" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.editor.cn.P51NQueens" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.editor.cn.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="P77Combinations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.editor.cn.P77Combinations" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.editor.cn.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="P79WordSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.editor.cn.P79WordSearch" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
@@ -162,11 +168,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.P51NQueens" />
+        <item itemvalue="Application.P79WordSearch" />
+        <item itemvalue="Application.P77Combinations" />
         <item itemvalue="Application.P46Permutations" />
         <item itemvalue="Application.P417PacificAtlanticWaterFlow" />
-        <item itemvalue="Application.P75SortColors" />
-        <item itemvalue="Application.P451SortCharactersByFrequency" />
-        <item itemvalue="Application.P347TopKFrequentElements" />
       </list>
     </recent_temporary>
   </component>
@@ -216,7 +222,8 @@
       <workItem from="1638097723991" duration="66000" />
       <workItem from="1638097832433" duration="179000" />
       <workItem from="1638098031675" duration="17877000" />
-      <workItem from="1639314160226" duration="10968000" />
+      <workItem from="1639314160226" duration="13544000" />
+      <workItem from="1639900696603" duration="5560000" />
     </task>
     <task id="LOCAL-00001" summary="获取最长会问子串">
       <created>1629635344636</created>
@@ -288,7 +295,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639489161652</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="46">
+      <created>1639573812427</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1639573812427</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -334,65 +348,70 @@
     <MESSAGE value="695" />
     <MESSAGE value="547" />
     <MESSAGE value="417" />
-    <option name="LAST_COMMIT_MESSAGE" value="417" />
+    <MESSAGE value="46" />
+    <option name="LAST_COMMIT_MESSAGE" value="46" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="505" y="55" key="CommitChangelistDialog2" timestamp="1639489160476">
+    <state x="505" y="55" key="CommitChangelistDialog2" timestamp="1639573811232">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="505" y="55" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1639489160476" />
+    <state x="505" y="55" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1639573811232" />
+    <state width="444" height="582" key="DebuggerActiveHint" timestamp="1639902182328">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="444" height="582" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1639902182328" />
     <state x="804" y="222" key="FileChooserDialogImpl" timestamp="1638097746259">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="804" y="222" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1638097746259" />
-    <state width="933" height="309" key="GridCell.Tab.0.bottom" timestamp="1639573736292">
+    <state width="1867" height="198" key="GridCell.Tab.0.bottom" timestamp="1639907066008">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="933" height="309" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1639573736292" />
-    <state width="933" height="309" key="GridCell.Tab.0.center" timestamp="1639573736292">
+    <state width="1867" height="198" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1639907066008" />
+    <state width="1867" height="198" key="GridCell.Tab.0.center" timestamp="1639907066007">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="933" height="309" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1639573736292" />
-    <state width="933" height="309" key="GridCell.Tab.0.left" timestamp="1639573736292">
+    <state width="1867" height="198" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1639907066007" />
+    <state width="1867" height="198" key="GridCell.Tab.0.left" timestamp="1639907066007">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="933" height="309" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1639573736292" />
-    <state width="933" height="309" key="GridCell.Tab.0.right" timestamp="1639573736292">
+    <state width="1867" height="198" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1639907066007" />
+    <state width="1867" height="198" key="GridCell.Tab.0.right" timestamp="1639907066008">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="933" height="309" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1639573736292" />
-    <state width="933" height="309" key="GridCell.Tab.1.bottom" timestamp="1639573708816">
+    <state width="1867" height="198" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1639907066008" />
+    <state width="1867" height="309" key="GridCell.Tab.1.bottom" timestamp="1639906886754">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="933" height="309" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1639573708816" />
-    <state width="933" height="309" key="GridCell.Tab.1.center" timestamp="1639573708816">
+    <state width="1867" height="309" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1639906886754" />
+    <state width="1867" height="309" key="GridCell.Tab.1.center" timestamp="1639906886753">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="933" height="309" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1639573708816" />
-    <state width="933" height="309" key="GridCell.Tab.1.left" timestamp="1639573708816">
+    <state width="1867" height="309" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1639906886753" />
+    <state width="1867" height="309" key="GridCell.Tab.1.left" timestamp="1639906886753">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="933" height="309" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1639573708816" />
-    <state width="933" height="309" key="GridCell.Tab.1.right" timestamp="1639573708816">
+    <state width="1867" height="309" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1639906886753" />
+    <state width="1867" height="309" key="GridCell.Tab.1.right" timestamp="1639906886754">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="933" height="309" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1639573708816" />
+    <state width="1867" height="309" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1639906886754" />
     <state x="642" y="93" key="SettingsEditor" timestamp="1638098976976">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="642" y="93" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1638098976976" />
-    <state x="452" y="192" key="Vcs.Push.Dialog.v2" timestamp="1639489163119">
+    <state x="452" y="192" key="Vcs.Push.Dialog.v2" timestamp="1639573814639">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="452" y="192" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1639489163119" />
+    <state x="452" y="192" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1639573814639" />
     <state x="627" y="246" key="extract.method.dialog" timestamp="1638192143787">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="627" y="246" key="extract.method.dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1638192143787" />
-    <state x="532" y="-5" width="840" height="1032" key="search.everywhere.popup" timestamp="1638099464531">
+    <state x="532" y="-5" width="840" height="1032" key="search.everywhere.popup" timestamp="1639904176359">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="532" y="-5" width="840" height="1032" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1638099464531" />
+    <state x="532" y="-5" width="840" height="1032" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1639904176359" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -530,9 +549,9 @@
           <option name="timeStamp" value="309" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/leetcode/editor/cn/P46Permutations.java</url>
-          <line>60</line>
-          <option name="timeStamp" value="316" />
+          <url>file://$PROJECT_DIR$/src/leetcode/editor/cn/P79WordSearch.java</url>
+          <line>77</line>
+          <option name="timeStamp" value="311" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/cofire/sort/MergeSort.java</url>
