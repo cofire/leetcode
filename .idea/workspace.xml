@@ -1,10 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d95c7ac-1f6e-4483-8acd-0611b4a05a78" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/P51NQueens.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/P77Combinations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/P79WordSearch.java" afterDir="false" />
+    <list default="true" id="4d95c7ac-1f6e-4483-8acd-0611b4a05a78" name="Default Changelist" comment="51">
+      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/P05_06ConvertIntegerLcci.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/P05_07ExchangeLcci.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/P1971FindIfPathExistsInGraph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/P1995CountSpecialQuadruplets.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/P2006CountNumberOfPairsWithAbsoluteDifferenceK.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/P2180CountIntegersWithEvenDigitSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/P6008CountingWordsWithAGivenPrefix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/PColorFillLcci.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/PDeleteMiddleNodeLcci.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/PPalindromePermutationLcci.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/PThreeStepsProblemLcci.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/doc/content/PThreeSumClosest.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/doc/content/PTwoSum.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/doc/content/[16]最接近的三数之和.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/editor/cn/all.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/leetcode/editor/cn/all.json" afterDir="false" />
@@ -45,6 +59,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="GithubPullRequestsUISettings">
     <option name="hiddenUrls">
       <set>
@@ -52,11 +74,14 @@
       </set>
     </option>
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
         <option name="localRepository" value="D:\work\repository" />
-        <option name="mavenHome" value="D:/Program Files/apache-maven-3.6.0" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../Program Files/apache-maven-3.6.0" />
         <option name="userSettingsFile" value="D:\Program Files\apache-maven-3.6.0\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
@@ -67,15 +92,15 @@
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../work/2018/merckActrl/merckActrl/pom.xml" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -84,7 +109,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -100,9 +125,9 @@
       <select />
     </treeState>
   </component>
-  <component name="RunManager" selected="Application.P51NQueens">
-    <configuration name="P417PacificAtlanticWaterFlow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.editor.cn.P417PacificAtlanticWaterFlow" />
+  <component name="RunManager" selected="Application.P3LongestSubstringWithoutRepeatingCharacters">
+    <configuration name="P05_07ExchangeLcci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.editor.cn.P05_07ExchangeLcci" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
@@ -114,8 +139,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P46Permutations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.editor.cn.P46Permutations" />
+    <configuration name="P3LongestSubstringWithoutRepeatingCharacters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.editor.cn.P3LongestSubstringWithoutRepeatingCharacters" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
@@ -127,8 +152,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P51NQueens" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.editor.cn.P51NQueens" />
+    <configuration name="P6008CountingWordsWithAGivenPrefix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.editor.cn.P6008CountingWordsWithAGivenPrefix" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
@@ -140,8 +165,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P77Combinations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.editor.cn.P77Combinations" />
+    <configuration name="PPalindromePermutationLcci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.editor.cn.PPalindromePermutationLcci" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
@@ -153,8 +178,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P79WordSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.editor.cn.P79WordSearch" />
+    <configuration name="PThreeStepsProblemLcci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.editor.cn.PThreeStepsProblemLcci" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
@@ -168,11 +193,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.P51NQueens" />
-        <item itemvalue="Application.P79WordSearch" />
-        <item itemvalue="Application.P77Combinations" />
-        <item itemvalue="Application.P46Permutations" />
-        <item itemvalue="Application.P417PacificAtlanticWaterFlow" />
+        <item itemvalue="Application.P3LongestSubstringWithoutRepeatingCharacters" />
+        <item itemvalue="Application.PThreeStepsProblemLcci" />
+        <item itemvalue="Application.PPalindromePermutationLcci" />
+        <item itemvalue="Application.P6008CountingWordsWithAGivenPrefix" />
+        <item itemvalue="Application.P05_07ExchangeLcci" />
       </list>
     </recent_temporary>
   </component>
@@ -188,6 +213,7 @@
       </list>
     </option>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration>C:\Users\ThinkPad\AppData\Roaming\Subversion</configuration>
   </component>
@@ -223,7 +249,14 @@
       <workItem from="1638097832433" duration="179000" />
       <workItem from="1638098031675" duration="17877000" />
       <workItem from="1639314160226" duration="13544000" />
-      <workItem from="1639900696603" duration="5560000" />
+      <workItem from="1639900696603" duration="6234000" />
+      <workItem from="1645346756343" duration="2612000" />
+      <workItem from="1645866325247" duration="103000" />
+      <workItem from="1645866986427" duration="8488000" />
+      <workItem from="1645925446225" duration="6915000" />
+      <workItem from="1646480818186" duration="87000" />
+      <workItem from="1646480999912" duration="133000" />
+      <workItem from="1646482153620" duration="441000" />
     </task>
     <task id="LOCAL-00001" summary="获取最长会问子串">
       <created>1629635344636</created>
@@ -302,7 +335,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639573812427</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="51">
+      <created>1639907134514</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1639907134514</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -349,69 +389,8 @@
     <MESSAGE value="547" />
     <MESSAGE value="417" />
     <MESSAGE value="46" />
-    <option name="LAST_COMMIT_MESSAGE" value="46" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="505" y="55" key="CommitChangelistDialog2" timestamp="1639573811232">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="505" y="55" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1639573811232" />
-    <state width="444" height="582" key="DebuggerActiveHint" timestamp="1639902182328">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="444" height="582" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1639902182328" />
-    <state x="804" y="222" key="FileChooserDialogImpl" timestamp="1638097746259">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="804" y="222" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1638097746259" />
-    <state width="1867" height="198" key="GridCell.Tab.0.bottom" timestamp="1639907066008">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1867" height="198" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1639907066008" />
-    <state width="1867" height="198" key="GridCell.Tab.0.center" timestamp="1639907066007">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1867" height="198" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1639907066007" />
-    <state width="1867" height="198" key="GridCell.Tab.0.left" timestamp="1639907066007">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1867" height="198" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1639907066007" />
-    <state width="1867" height="198" key="GridCell.Tab.0.right" timestamp="1639907066008">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1867" height="198" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1639907066008" />
-    <state width="1867" height="309" key="GridCell.Tab.1.bottom" timestamp="1639906886754">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1867" height="309" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1639906886754" />
-    <state width="1867" height="309" key="GridCell.Tab.1.center" timestamp="1639906886753">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1867" height="309" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1639906886753" />
-    <state width="1867" height="309" key="GridCell.Tab.1.left" timestamp="1639906886753">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1867" height="309" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1639906886753" />
-    <state width="1867" height="309" key="GridCell.Tab.1.right" timestamp="1639906886754">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1867" height="309" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1639906886754" />
-    <state x="642" y="93" key="SettingsEditor" timestamp="1638098976976">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="642" y="93" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1638098976976" />
-    <state x="452" y="192" key="Vcs.Push.Dialog.v2" timestamp="1639573814639">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="452" y="192" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1639573814639" />
-    <state x="627" y="246" key="extract.method.dialog" timestamp="1638192143787">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="627" y="246" key="extract.method.dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1638192143787" />
-    <state x="532" y="-5" width="840" height="1032" key="search.everywhere.popup" timestamp="1639904176359">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="532" y="-5" width="840" height="1032" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1639904176359" />
+    <MESSAGE value="51" />
+    <option name="LAST_COMMIT_MESSAGE" value="51" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -552,6 +531,46 @@
           <url>file://$PROJECT_DIR$/src/leetcode/editor/cn/P79WordSearch.java</url>
           <line>77</line>
           <option name="timeStamp" value="311" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/editor/cn/P05_06ConvertIntegerLcci.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="316" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/editor/cn/P05_07ExchangeLcci.java</url>
+          <option name="timeStamp" value="317" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/editor/cn/PThreeStepsProblemLcci.java</url>
+          <option name="timeStamp" value="318" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/editor/cn/PThreeStepsProblemLcci.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="320" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/editor/cn/PThreeStepsProblemLcci.java</url>
+          <line>57</line>
+          <option name="timeStamp" value="321" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/editor/cn/PThreeStepsProblemLcci.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="322" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/editor/cn/PColorFillLcci.java</url>
+          <option name="timeStamp" value="323" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/editor/cn/P6ZigzagConversion.java</url>
+          <option name="timeStamp" value="324" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/editor/cn/P79WordSearch.java</url>
+          <option name="timeStamp" value="326" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/cofire/sort/MergeSort.java</url>
