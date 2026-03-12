@@ -10,9 +10,22 @@ public class ListNode {
     int val;
     ListNode next;
 
+    ListNode() {
+    }
+
     ListNode(int x) {
         val = x;
         next = null;
+    }
+
+    public ListNode numsToList(int[] nums) {
+        ListNode root = new ListNode(nums[0]);
+        ListNode tmp = root;
+        for (int i = 1; i < nums.length; i++) {
+            tmp.next = new ListNode(nums[i]);
+            tmp = tmp.next;
+        }
+        return root;
     }
 
     public void print() {
