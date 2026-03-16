@@ -18,7 +18,7 @@ public class ListNode {
         next = null;
     }
 
-    public ListNode numsToList(int[] nums) {
+    public static ListNode numsToList(int[] nums) {
         ListNode root = new ListNode(nums[0]);
         ListNode tmp = root;
         for (int i = 1; i < nums.length; i++) {
