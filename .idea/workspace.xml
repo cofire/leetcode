@@ -4,7 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d95c7ac-1f6e-4483-8acd-0611b4a05a78" name="Default Changelist" comment="51" />
+    <list default="true" id="4d95c7ac-1f6e-4483-8acd-0611b4a05a78" name="Default Changelist" comment="473+461">
+      <change afterPath="$PROJECT_DIR$/src/cofire/concurrent/thread/singleton/DclHungrySingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cofire/concurrent/thread/singleton/EnumSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cofire/concurrent/thread/singleton/HolderSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cofire/concurrent/thread/singleton/HungrySingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cofire/concurrent/thread/singleton/LazySingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cofire/concurrent/thread/singleton/SyncHungrySingleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/editor/cn/ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/leetcode/editor/cn/ListNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/editor/cn/P2AddTwoNumbers$ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/leetcode/editor/cn/P2AddTwoNumbers$ListNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/editor/cn/P2AddTwoNumbers$Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/leetcode/editor/cn/P2AddTwoNumbers$Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/editor/cn/P2AddTwoNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/P2AddTwoNumbers.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -62,8 +75,9 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
+        <option name="customMavenHome" value="$PROJECT_DIR$/../../../Program Files/apache-maven-3.6.0" />
         <option name="localRepository" value="D:\work\repository" />
-        <option name="mavenHome" value="$PROJECT_DIR$/../../../Program Files/apache-maven-3.6.0" />
+        <option name="mavenHomeTypeForPersistence" value="CUSTOM" />
         <option name="userSettingsFile" value="D:\Program Files\apache-maven-3.6.0\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
@@ -71,42 +85,38 @@
   <component name="OptimizeOnSaveOptions">
     <option name="myRunOnSave" value="true" />
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 1
+}]]></component>
   <component name="ProjectId" id="1bpqh2uDT63diDDuVLTs8zdPvx1" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+  <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="code.cleanup.on.save" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.path.for.package.tslint" value="project" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Test.executor": "Run",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/liying/github/leetcode"
+  }
+}]]></component>
   <component name="RecentsManager">
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="cofire.sort" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\liying\github\leetcode\src" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="cofire.concurrent" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cofire.concurrent.thread.singleton" />
+      <recent name="leetcode.editor.cn" />
+      <recent name="cofire.sort" />
     </key>
   </component>
   <component name="RestServicesNavigator">
@@ -115,9 +125,9 @@
       <select />
     </treeState>
   </component>
-  <component name="RunManager" selected="Application.P34SearchRange">
-    <configuration name="P215FindKthLargest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.editor.cn.P215FindKthLargest" />
+  <component name="RunManager" selected="Application.Test">
+    <configuration name="P239SlidingWindowMaximum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.editor.cn.P239SlidingWindowMaximum" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
@@ -129,8 +139,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P221MaximalSquare" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.editor.cn.P221MaximalSquare" />
+    <configuration name="P2AddTwoNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.editor.cn.P2AddTwoNumbers" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
@@ -142,8 +152,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P22GenerateParenthesis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.editor.cn.P22GenerateParenthesis" />
+    <configuration name="P437PathSumIii" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.editor.cn.P437PathSumIii" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
@@ -155,8 +165,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P34SearchRange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.editor.cn.P34SearchRange" />
+    <configuration name="P461HammingDistance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.editor.cn.P461HammingDistance" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
@@ -168,12 +178,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P55CanJump" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.editor.cn.P55CanJump" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cofire.concurrent.Test" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.editor.cn.*" />
+          <option name="PATTERN" value="cofire.concurrent.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -182,19 +192,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.P221MaximalSquare" />
-      <item itemvalue="Application.P215FindKthLargest" />
-      <item itemvalue="Application.P55CanJump" />
-      <item itemvalue="Application.P22GenerateParenthesis" />
-      <item itemvalue="Application.P34SearchRange" />
+      <item itemvalue="Application.Test" />
+      <item itemvalue="Application.P461HammingDistance" />
+      <item itemvalue="Application.P437PathSumIii" />
+      <item itemvalue="Application.P2AddTwoNumbers" />
+      <item itemvalue="Application.P239SlidingWindowMaximum" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.P34SearchRange" />
-        <item itemvalue="Application.P22GenerateParenthesis" />
-        <item itemvalue="Application.P55CanJump" />
-        <item itemvalue="Application.P215FindKthLargest" />
-        <item itemvalue="Application.P221MaximalSquare" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.P239SlidingWindowMaximum" />
+        <item itemvalue="Application.P2AddTwoNumbers" />
+        <item itemvalue="Application.P437PathSumIii" />
+        <item itemvalue="Application.P461HammingDistance" />
       </list>
     </recent_temporary>
   </component>
@@ -339,19 +349,125 @@
       <option name="project" value="LOCAL" />
       <updated>1639907134514</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="416">
+      <created>1772613759951</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1772613759951</updated>
+    </task>
+    <task id="LOCAL-00014" summary="48+322">
+      <created>1772712448022</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1772712448022</updated>
+    </task>
+    <task id="LOCAL-00015" summary="11+283+647">
+      <created>1772805545224</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1772805545224</updated>
+    </task>
+    <task id="LOCAL-00016" summary="78+279">
+      <created>1773035112455</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1773035112455</updated>
+    </task>
+    <task id="LOCAL-00017" summary="278+473+621">
+      <created>1773224846284</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1773224846284</updated>
+    </task>
+    <task id="LOCAL-00018" summary="3+19+46+121+126+169">
+      <created>1773317543740</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1773317543740</updated>
+    </task>
+    <task id="LOCAL-00019" summary="3+19+46+121+126+169">
+      <created>1773317606599</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1773317606599</updated>
+    </task>
+    <task id="LOCAL-00020" summary="23+139">
+      <created>1773488973245</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1773488973245</updated>
+    </task>
+    <task id="LOCAL-00021" summary="23+139">
+      <created>1773669784769</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1773669784769</updated>
+    </task>
+    <task id="LOCAL-00022" summary="23+139">
+      <created>1773755988183</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1773755988183</updated>
+    </task>
+    <task id="LOCAL-00023" summary="152+198+543+617">
+      <created>1773895328333</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1773895328333</updated>
+    </task>
+    <task id="LOCAL-00024" summary="20+128+155">
+      <created>1773908053992</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1773908053992</updated>
+    </task>
+    <task id="LOCAL-00025" summary="473+461">
+      <created>1773921575431</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1773921575431</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Space.CommitStatus" />
+        <option value="Default.Subject" />
+      </list>
+    </option>
+  </component>
   <component name="Vcs.Log.Tabs.Properties">
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="890d46bd-81cb-4dbf-9c6a-6f6a3d2d4c04" value="TOOL_WINDOW" />
+      </map>
+    </option>
     <option name="TAB_STATES">
       <map>
         <entry key="1">
           <value>
             <State>
-              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
               <option name="FILTERS">
                 <map>
                   <entry key="branch">
@@ -370,7 +486,43 @@
                   </entry>
                 </map>
               </option>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
             </State>
+          </value>
+        </entry>
+        <entry key="890d46bd-81cb-4dbf-9c6a-6f6a3d2d4c04">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+            </State>
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State />
           </value>
         </entry>
       </map>
@@ -387,14 +539,24 @@
     <MESSAGE value="417" />
     <MESSAGE value="46" />
     <MESSAGE value="51" />
-    <option name="LAST_COMMIT_MESSAGE" value="51" />
+    <MESSAGE value="416" />
+    <MESSAGE value="48+322" />
+    <MESSAGE value="11+283+647" />
+    <MESSAGE value="78+279" />
+    <MESSAGE value="278+473+621" />
+    <MESSAGE value="3+19+46+121+126+169" />
+    <MESSAGE value="23+139" />
+    <MESSAGE value="152+198+543+617" />
+    <MESSAGE value="20+128+155" />
+    <MESSAGE value="473+461" />
+    <option name="LAST_COMMIT_MESSAGE" value="473+461" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/leetcode/editor/cn/P2AddTwoNumbers.java</url>
-          <line>75</line>
+          <line>80</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -579,10 +741,110 @@
           <line>14</line>
           <option name="timeStamp" value="338" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/editor/cn/P48Rotate.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="345" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/editor/cn/P283MoveZeroes.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="346" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/editor/cn/P279NumSquares.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="348" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/editor/cn/P279NumSquares.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="349" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/editor/cn/P473PathSum.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="354" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/editor/cn/P473PathSum.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="356" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/editor/cn/P621LeastInterval.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="362" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/editor/cn/P621LeastInterval.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="363" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/editor/cn/P621LeastInterval.java</url>
+          <line>52</line>
+          <option name="timeStamp" value="364" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/editor/cn/P3LengthOfLongestSubstring.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="365" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/editor/cn/P46Permute.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="370" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/editor/cn/P46Permute.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="371" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/editor/cn/P19RemoveNthFromEnd.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="376" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/editor/cn/P19RemoveNthFromEnd.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="377" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/editor/cn/P19RemoveNthFromEnd.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="378" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/editor/cn/P139WordBreak.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="379" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/editor/cn/P53MaxSubArray.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="380" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/editor/cn/P338CountBits.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="382" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/editor/cn/P128LongestConsecutiveSequence.java</url>
+          <line>58</line>
+          <option name="timeStamp" value="384" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/editor/cn/P128LongestConsecutiveSequence.java</url>
+          <line>62</line>
+          <option name="timeStamp" value="385" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/cofire/sort/MergeSort.java</url>
           <line>31</line>
-          <properties class="cofire.sort.MergeSort" method="main">
+          <properties class="cofire.sort.MergeSort">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="302" />
