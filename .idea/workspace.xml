@@ -4,19 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d95c7ac-1f6e-4483-8acd-0611b4a05a78" name="Default Changelist" comment="473+461">
-      <change afterPath="$PROJECT_DIR$/src/cofire/concurrent/thread/singleton/DclHungrySingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cofire/concurrent/thread/singleton/EnumSingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cofire/concurrent/thread/singleton/HolderSingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cofire/concurrent/thread/singleton/HungrySingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cofire/concurrent/thread/singleton/LazySingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cofire/concurrent/thread/singleton/SyncHungrySingleton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
+    <list default="true" id="4d95c7ac-1f6e-4483-8acd-0611b4a05a78" name="Default Changelist" comment="单例模式">
+      <change afterPath="$PROJECT_DIR$/src/cofire/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cofire/concurrent/lock/CountDownLatchDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cofire/concurrent/lock/CyclicBarrierDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cofire/concurrent/lock/ReentrantLockDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cofire/concurrent/lock/SemaphoreDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cofire/concurrent/thread/demo/MyCallable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cofire/concurrent/thread/demo/MyRunable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cofire/concurrent/thread/demo/MyThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cofire/concurrent/thread/stop/ThreadSafe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cofire/concurrent/thread/stop/ThreadSafe2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/editor/cn/ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/leetcode/editor/cn/ListNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/editor/cn/P2AddTwoNumbers$ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/leetcode/editor/cn/P2AddTwoNumbers$ListNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/editor/cn/P2AddTwoNumbers$Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/leetcode/editor/cn/P2AddTwoNumbers$Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/editor/cn/P2AddTwoNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/P2AddTwoNumbers.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +98,15 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.CountDownLatchDemo.executor": "Run",
+    "Application.CyclicBarrierDemo.executor": "Run",
+    "Application.MyThread.executor": "Run",
+    "Application.MyThread2.executor": "Run",
+    "Application.MyThread3.executor": "Run",
+    "Application.SemaphoreDemo.executor": "Run",
     "Application.Test.executor": "Run",
+    "Application.ThreadSafe.executor": "Run",
+    "Application.ThreadSafe2.executor": "Run",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
@@ -114,9 +121,11 @@
       <recent name="cofire.concurrent" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cofire.concurrent.lock" />
+      <recent name="cofire.concurrent.thread.stop" />
+      <recent name="cofire.concurrent.thread.demo" />
       <recent name="cofire.concurrent.thread.singleton" />
       <recent name="leetcode.editor.cn" />
-      <recent name="cofire.sort" />
     </key>
   </component>
   <component name="RestServicesNavigator">
@@ -125,13 +134,13 @@
       <select />
     </treeState>
   </component>
-  <component name="RunManager" selected="Application.Test">
-    <configuration name="P239SlidingWindowMaximum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.editor.cn.P239SlidingWindowMaximum" />
+  <component name="RunManager" selected="Application.CyclicBarrierDemo">
+    <configuration name="CountDownLatchDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cofire.concurrent.lock.CountDownLatchDemo" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.editor.cn.*" />
+          <option name="PATTERN" value="cofire.concurrent.lock.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,12 +148,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P2AddTwoNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.editor.cn.P2AddTwoNumbers" />
+    <configuration name="CyclicBarrierDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cofire.concurrent.lock.CyclicBarrierDemo" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.editor.cn.*" />
+          <option name="PATTERN" value="cofire.concurrent.lock.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -152,12 +161,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P437PathSumIii" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.editor.cn.P437PathSumIii" />
+    <configuration name="MyThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cofire.concurrent.thread.demo.MyThread" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.editor.cn.*" />
+          <option name="PATTERN" value="cofire.concurrent.thread.stop.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -165,12 +174,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P461HammingDistance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.editor.cn.P461HammingDistance" />
+    <configuration name="SemaphoreDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cofire.concurrent.lock.SemaphoreDemo" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.editor.cn.*" />
+          <option name="PATTERN" value="cofire.concurrent.lock.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -178,12 +187,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cofire.concurrent.Test" />
+    <configuration name="ThreadSafe2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cofire.concurrent.thread.stop.ThreadSafe2" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cofire.concurrent.*" />
+          <option name="PATTERN" value="cofire.concurrent.thread.stop.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -192,19 +201,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Test" />
-      <item itemvalue="Application.P461HammingDistance" />
-      <item itemvalue="Application.P437PathSumIii" />
-      <item itemvalue="Application.P2AddTwoNumbers" />
-      <item itemvalue="Application.P239SlidingWindowMaximum" />
+      <item itemvalue="Application.CountDownLatchDemo" />
+      <item itemvalue="Application.CyclicBarrierDemo" />
+      <item itemvalue="Application.MyThread" />
+      <item itemvalue="Application.SemaphoreDemo" />
+      <item itemvalue="Application.ThreadSafe2" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.P239SlidingWindowMaximum" />
-        <item itemvalue="Application.P2AddTwoNumbers" />
-        <item itemvalue="Application.P437PathSumIii" />
-        <item itemvalue="Application.P461HammingDistance" />
+        <item itemvalue="Application.CyclicBarrierDemo" />
+        <item itemvalue="Application.CountDownLatchDemo" />
+        <item itemvalue="Application.SemaphoreDemo" />
+        <item itemvalue="Application.MyThread" />
+        <item itemvalue="Application.ThreadSafe2" />
       </list>
     </recent_temporary>
   </component>
@@ -440,7 +449,15 @@
       <option name="project" value="LOCAL" />
       <updated>1773921575431</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="单例模式">
+      <option name="closed" value="true" />
+      <created>1779199385544</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1779199385544</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -549,7 +566,8 @@
     <MESSAGE value="152+198+543+617" />
     <MESSAGE value="20+128+155" />
     <MESSAGE value="473+461" />
-    <option name="LAST_COMMIT_MESSAGE" value="473+461" />
+    <MESSAGE value="单例模式" />
+    <option name="LAST_COMMIT_MESSAGE" value="单例模式" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
